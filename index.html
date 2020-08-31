@@ -3,24 +3,29 @@
 <head>
 	<title>Pizza Shop</title>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@562;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 <body>
 	<div class="div-wrapper">
+		<div class="header-container">
 			<header id="header">
 				<div class="logo">
-					<img id="header-img" src="https://www.clipartkey.com/mpngs/m/85-853894_delivery-png-hd-pizza-delivery-png.png">
-					<p id="text-logo">Pizzzzzaaaa</p>
+					<img id="header-img" src="https://static3.depositphotos.com/1000747/223/v/450/depositphotos_2231828-stock-illustration-pizza-chef.jpg">
+					<div id="text-logo">J.j's Pizza</div>
 				</div>
 				<nav class="nav-bar">
 					<ul>
-						<li><a class="nav-link" href="">Features</a></li>
-						<li><a class="nav-link" href="">How it Works</a></li>
-						<li><a class="nav-link" href="">Pricing</a></li>
+						<li><a class="nav-link" href="#features">Features</a></li>
+						<li><a class="nav-link" href="#video">How it Works</a></li>
+						<li><a class="nav-link" href="#pricing">Pricing</a></li>
 					</ul>
 				</nav>
 			</header>
+		</div>
+			
+
 		<div id="main-container">
 			<section id="form-section">
 				<h2>Handcrafted, home-made masterpieces</h2>
@@ -35,78 +40,91 @@
 						<img src="https://media.istockphoto.com/photos/traditional-italian-products-parmesan-or-parmigiano-and-mozarella-on-picture-id676249024">
 					</div><!--Div .icon-->
 					<div class="desc">
-						<h3>Premium Materials</h3>
-						<p>
-						Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-						</p>
+						<h3>Premium Ingredients</h3>
+						<p>Our cuisine in general, is defined by its use of fresh, local and seasonal produce to create a very tasty and satisfying pizza you'll ever eat.</p>
 					</div><!--Div .desc-->
 				</div><!--Div .grid-->
-				<div class="grid">
-					<div class="icon">
-						<img src="https://media.istockphoto.com/photos/fresh-raw-dough-picture-id626522874">
-					</div><!--Div .icon-->
-					<div class="desc">
-						<h3>Premium Materials</h3>
-						<p>
-						Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-						</p>
-					</div><!--Div .desc-->
-				</div><!--Div .grid-->
+				
 				<div class="grid">
 					<div class="icon">
 						<img src="https://media.istockphoto.com/photos/wood-fired-oven-picture-id181146389">
 					</div><!--Div .icon-->
 					<div class="desc">
-						<h3>Premium Materials</h3>
+						<h3>Wood Fired Oven</h3>
 						<p>
-						Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-						</p>
+						Wood fired pizza ovens are a requirement for authentic Italian pizza made to these regulations. Since the pizza cooks very quickly in a wood fired oven, it has the effect of imparting a delightful contrast on the finished pie.
+					</div><!--Div .desc-->
+				</div><!--Div .grid-->
+
+				<div class="grid">
+					<div class="icon">
+						<img src="https://media.istockphoto.com/photos/delivering-pizza-picture-id177273203">
+					</div><!--Div .icon-->
+					<div class="desc">
+						<h3>Fast Delivery Service</h3>
+						<p>Just order and wait for a while we’ll be there at your door.</p>
 					</div><!--Div .desc-->
 				</div><!--Div .grid-->
 			</section><!--section #features-->
+
 			<section id="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/OUQr8lG45AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</section><!--section #video-->
+			
 			<section id="pricing">
-				<div class="product" id="chicago-deepdish">
-					<div class="product-type">Chicago Deepdish Pizza</div>
-					<div class="product-content">
-						<h3>$25</h3>
-						<ol>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-						</ol>
-						<button class="select">Select</button>
-					</div><!--Div .proruct-content-->
-				</div><!--Div #chicago-deepdish-->
-				<div class="product" id="stuffed-crust">
-					<div class="product-type">Stuffed Crust</div>
-					<div class="product-content">
-						<h3>$25</h3>
-						<ol>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-						</ol>
-						<button class="select">Select</button>
-					</div><!--Div .proruct-content-->
-				</div><!--Div #stuffed-crust-->
 				<div class="product" id="neapolitan-pizza">
 					<div class="product-type">Neapolitan Pizza</div>
 					<div class="product-content">
-						<h3>$25</h3>
+						<h3>$6.50</h3>
 						<ol>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
+							<li>Features a thin crust and basic, but very fresh topping. This makes for a delicious, harmonized taste that melts on the palette without various different flavors competing with one another</li>
+							<li>(Buffalo) Mozzarella cheese, (San Marzano)Tomatoes, Basil.</li>
 						</ol>
 						<button class="select">Select</button>
 					</div><!--Div .proruct-content-->
 				</div><!--Div #neapolitan-pizza-->
-			</section><!--section #pricing-->
-			<footer id="footer">
 
+				<div class="product" id="ny-style-pizza">
+					<div class="product-type">New York-Style Pizza</div>
+					<div class="product-content">
+						<h3>$7.50</h3>
+						<ol>
+							<li>Boasting a thin, foldable base with a large, thick crust, feature more cheese than their Neapolitan equivalents.</li>
+							<li>Mozzarella cheese & Tomatoes.</li>
+							
+						</ol>
+						<button class="select">Select</button>
+					</div><!--Div .proruct-content-->
+				</div><!--Div #ny-style-pizza-->
+
+				<div class="product" id="chicago-deepdish">
+					<div class="product-type">Chicago Deepdish Pizza</div>
+					<div class="product-content">
+						<h3>$15</h3>
+						<ol>
+							<li>This style of pizza is baked in a pan, which creates a high crust and plenty of space for lots of toppings.</li>
+							<li>Cheese,
+								Tomatoes,
+								Meat: sausage, pepperoni,
+								Onions,
+								Mushrooms,
+								Bell peppers.</li>
+						</ol>
+						<button class="select">Select</button>
+					</div><!--Div .proruct-content-->
+				</div><!--Div #chicago-deepdish-->
+			</section><!--section #pricing-->
+
+			<footer id="footer">
+				<nav class="footer-nav">
+						<ol>
+							<li><a class="footer-nav-link" href="">Privacy</a></li>
+							<li><a class="footer-nav-link" href="">Terms</a></li>
+							<li><a class="footer-nav-link" href="">Contact</a></li>
+						</ol>
+					
+					<div class="copyright">Copyright 2016, J.j's Pizza</div>
+				</nav>
 			</footer>
 		</div><!--Div #main-container-->
 	<div><!--Div .div-wrapper-->
