@@ -19,7 +19,6 @@ body{
 .logo{
 	border: 2px orange solid;
 	display:flex;
-
 }
 .logo img{
 	width: 100%;
